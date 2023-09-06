@@ -22,6 +22,6 @@
   },
   "homepage": "https://github.com/oleksii-fedorenko-94/buildkite-pipeline#readme",
   "devDependencies": {
-    "@playwright/test": "^1.37.1"
+    "@playwright/test": "^1.35.0"
   }
 }
