@@ -1,0 +1,27 @@
+{
+  "name": "buildkite-test-pipeline",
+  "version": "1.0.0",
+  "description": "buildkite-test-pipeline",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oleksii-fedorenko-94/buildkite-pipeline.git"
+  },
+  "keywords": [
+    "buildkite",
+    "playwright",
+    "pipeline",
+    "ci",
+    "cd"
+  ],
+  "author": "Oleksii Fedorenko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/oleksii-fedorenko-94/buildkite-pipeline/issues"
+  },
+  "homepage": "https://github.com/oleksii-fedorenko-94/buildkite-pipeline#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.37.1"
+  }
+}
