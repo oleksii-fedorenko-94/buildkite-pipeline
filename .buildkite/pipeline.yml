@@ -1,0 +1,6 @@
+steps:
+  - command:
+      - "yarn install"
+      - "npx playwright test"
+    artifact_paths:
+      - "playwright-report/index.html"
