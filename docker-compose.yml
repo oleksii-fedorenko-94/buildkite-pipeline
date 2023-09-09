@@ -1,0 +1,5 @@
+version: '3'
+services:
+  run-all:
+    image: playwright-test
+    command: "yarn run test"
