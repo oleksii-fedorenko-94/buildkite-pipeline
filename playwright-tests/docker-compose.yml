@@ -4,5 +4,5 @@ services:
     image: playwright-test
     command: "yarn run test"
     volumes:
-      - ./playwright-report/:/app/playwright-report/
-      - ./test-results/:/app/test-results/
+      - /usr/local/var/buildkite-agent/builds/OFedore-M-3JD93-1/test-org-50/test-pipeline/playwright-tests/playwright-report/:/app/playwright-report/
+      - /usr/local/var/buildkite-agent/builds/OFedore-M-3JD93-1/test-org-50/test-pipeline/playwright-tests/test-results/:/app/test-results/
