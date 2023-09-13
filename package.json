@@ -6,7 +6,8 @@
   "author": "Oleksii Fedorenko <oleksii.fedorenko@affirm.com>",
   "license": "MIT",
   "devDependencies": {
-    "@playwright/test": "^1.37.1"
+    "@playwright/test": "^1.37.1",
+    "@types/node": "^20.6.0"
   },
   "scripts": {
     "test": "npx playwright test"
