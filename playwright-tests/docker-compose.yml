@@ -4,5 +4,5 @@ services:
     image: playwright-test
     command: "yarn run test"
     volumes:
-      - ./playwright-report:/app/playwright-report
-      - ./test-results:/app/test-results
+      - ./playwright-report/:/app/playwright-report
+      - ./test-results/:/app/test-results
